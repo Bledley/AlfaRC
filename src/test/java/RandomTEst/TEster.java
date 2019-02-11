@@ -10,6 +10,7 @@ import org.junit.After;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -41,6 +42,9 @@ public class TEster {
         //capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
         capabilities.setCapability("appPackage", "ru.alfastrah.app");
         capabilities.setCapability(MobileCapabilityType.APP, "D:/ITFolder/AlfaRC.apk");
+        capabilities.setCapability("autoWebview", "true");
+        //capabilities.setCapability(MobileCapabilityType.AUTO_WEBVIEW, "true");
+        //capabilities.setCapability(MobileCapabilityType.ORIENTATION, "portrait");
         //capabilities.setCapability(MobileCapabilityType.APPLICATION_NAME, "Beta");
         //capabilities.setCapability("appActivity", "io.crash.air.Beta");
         capabilities.setCapability("autoGrantPermissions", "true");
@@ -50,17 +54,18 @@ public class TEster {
         //driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
         AppiumDriver driver = new AndroidDriver(serverURL, capabilities);
         WebDriverRunner.setWebDriver(driver);
-        driver.launchApp();
+        //driver.launchApp();
     }
-  /*  @AfterEach
-    public void closeDriver(){
-        driver.close();
-    }*/
+  // @AfterEach
+   // public void closeDriver(){
+   //     driver.close();
+   // }
         @Test
         public void firstTest() {
-            sleep(500);
+            //sleep(500);
        // $(byText("Далее")).shouldBe(Condition.visible).click();
-            driver.findElement(byText("Далее")).click();
+          // $(byText("Далее")).shouldBe(Condition.visible).click();
+            driver.findElement(By.xpath("//*[text()='ДАЛЕЕ']")).click();
 
        // open(url);
           // $(byText("Альфа Страхование")).click();

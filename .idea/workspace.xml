@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f54b46c0-a402-4c89-9bb6-635544294494" name="Default" comment="" />
+    <list default="true" id="f54b46c0-a402-4c89-9bb6-635544294494" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/RandomTEst/TEster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RandomTEst/TEster.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +18,8 @@
       <file leaf-file-name="TEster.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RandomTEst/TEster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="48" column="73" lean-forward="true" selection-start-line="48" selection-start-column="73" selection-end-line="48" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,6 +44,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,6 +74,7 @@
     <option name="width" value="883" />
     <option name="height" value="594" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -350,34 +356,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TEster - 2019.02.07 at 11h 14m 05s.xml">
-      <configuration name="TEster" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEster - 2019.02.07 at 11h 15m 59s.xml">
-      <configuration name="TEster" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEster - 2019.02.07 at 11h 26m 28s.xml">
-      <configuration name="TEster" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEster - 2019.02.07 at 11h 28m 03s.xml">
-      <configuration name="TEster" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEster - 2019.02.07 at 11h 28m 27s.xml">
-      <configuration name="TEster" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEster - 2019.02.11 at 12h 37m 32s.xml">
-      <configuration name="TEster" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEster - 2019.02.11 at 12h 38m 29s.xml">
-      <configuration name="TEster" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TEster - 2019.02.11 at 12h 39m 13s.xml">
-      <configuration name="TEster" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TEster - 2019.02.11 at 12h 46m 32s.xml">
       <configuration name="TEster" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TEster - 2019.02.11 at 12h 47m 18s.xml">
+      <configuration name="TEster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEster - 2019.02.11 at 12h 50m 52s.xml">
+      <configuration name="TEster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEster - 2019.02.11 at 13h 04m 53s.xml">
+      <configuration name="TEster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEster - 2019.02.11 at 13h 05m 16s.xml">
+      <configuration name="TEster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEster - 2019.02.11 at 13h 05m 49s.xml">
+      <configuration name="TEster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEster - 2019.02.11 at 13h 08m 39s.xml">
+      <configuration name="TEster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEster - 2019.02.11 at 13h 09m 49s.xml">
+      <configuration name="TEster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEster - 2019.02.11 at 13h 31m 20s.xml">
+      <configuration name="TEster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TEster - 2019.02.11 at 13h 34m 27s.xml">
       <configuration name="TEster" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -393,7 +399,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.518283" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -634,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RandomTEst/TEster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="48" column="73" lean-forward="true" selection-start-line="48" selection-start-column="73" selection-end-line="48" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
