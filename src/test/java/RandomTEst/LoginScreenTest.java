@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.openqa.selenium.By;
 import screens.LoginScreen;
 import steps.LoginScreenSteps;
 import com.codeborne.selenide.WebDriverRunner;
@@ -23,15 +24,13 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.sleep;
 
 public class LoginScreenTest {
-    WebDriver driver;
 
-
-    public LoginScreenSteps loginScreenSteps = new LoginScreenSteps();
-    public LoginScreen loginScreen = new LoginScreen();
+    private LoginScreen loginScreen = new LoginScreen();
+    private LoginScreenSteps loginScreenSteps = new LoginScreenSteps();
     String login = "test_mobile16@mail.ru";
     String pass = "123456";
 
-    @Before
+    @BeforeEach
     public void setupAppium() throws Exception {
         URL serverURL = new URL("http://0.0.0.0:4723/wd/hub");
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -59,6 +58,7 @@ public class LoginScreenTest {
  // }
         @Test
         public void validLoginTest() {
+        //loginScreen.nextBtn.click();
         loginScreenSteps.showSigninBtn();
         loginScreenSteps.clickSignInBtn();
         loginScreenSteps.enterPass(pass);

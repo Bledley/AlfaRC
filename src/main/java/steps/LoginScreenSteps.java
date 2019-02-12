@@ -4,11 +4,11 @@ import io.qameta.allure.Step;
 import screens.LoginScreen;
 
 public class LoginScreenSteps {
-    public  LoginScreen loginScreen = new LoginScreen();
+    private LoginScreen loginScreen = new LoginScreen();
 
 
    @Step
-    public void showSigninBtn(){loginScreen.nextBtn.click();}//loginScreen.nextBtn.click();loginScreen.nextBtn.click();loginScreen.nextBtn.click();}
+    public void showSigninBtn(){loginScreen.nextBtn.click();loginScreen.nextBtn.click();loginScreen.nextBtn.click();loginScreen.nextBtn.click();}
 
     @Step
     public void clickSignInBtn(){loginScreen.signinBtn.click();}
